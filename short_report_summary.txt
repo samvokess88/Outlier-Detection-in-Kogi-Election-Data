@@ -1,0 +1,14 @@
+Outlier Detection — Short Summary
+===============================
+
+Methodology:
+- Neighbours: radius = 1 km (Haversine)
+- Metrics per polling unit per party: z_score, robust_z (median/MAD), pct_diff
+
+Top 3 candidates for manual verification (by abs robust_z):
+1. PU: 22-21-04-004, Party: Accredited_Voters, Votes: 0.0, robust_z: nan, n_neighbors: 0
+2. PU: 22-21-04-004, Party: Registered_Voters, Votes: 1197.0, robust_z: nan, n_neighbors: 0
+3. PU: 22-21-04-004, Party: Transcription_Count, Votes: -1.0, robust_z: nan, n_neighbors: 0
+
+Notes:
+- Outliers are indicators. Further manual checks required.

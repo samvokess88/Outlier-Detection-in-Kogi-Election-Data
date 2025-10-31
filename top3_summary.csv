@@ -1,0 +1,4 @@
+PU-Code,pu_index,party,votes,neighbor_mean,neighbor_std,neighbor_median,neighbor_mad,z_score,robust_z,pct_diff,n_neighbors,latitude,longitude,abs_robust_z
+22-21-04-004,0,Accredited_Voters,0.0,,,,,,,,0,8.283333,5.45,
+22-21-04-004,0,Registered_Voters,1197.0,,,,,,,,0,8.283333,5.45,
+22-21-04-004,0,Transcription_Count,-1.0,,,,,,,,0,8.283333,5.45,
